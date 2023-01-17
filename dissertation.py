@@ -21,4 +21,5 @@ for road in shp_file:
         roads.append(shape(road['geometry']))
 
 
-
+#osm files are human readable and can use pandas to read the file
+#but insted of osm i will need osm.pbf file
